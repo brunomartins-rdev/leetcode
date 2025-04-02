@@ -20,10 +20,3 @@ class Solution:
 solution = Solution()
 print(solution.isAnagram('anagram', 'anagarm'))
 print(solution.isAnagram('anaggram', 'anagarm'))
-
-# Optimal solution would be just
-# class Solution:
-#     def isAnagram(self, s: str, t: str) -> bool:
-#         a = sorted(s)
-#         b = sorted(t)
-#         return a == b
